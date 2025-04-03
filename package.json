@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "serve",
-    "build": "npx rimraf dist && mkdir dist && xcopy /Y *.html dist\ && xcopy /Y *.js dist\ && xcopy /Y *.txt dist\ && xcopy /Y *.xml dist\",
+    "build": "npx rimraf dist && mkdir dist && xcopy /Y *.html dist/ && xcopy /Y *.js dist/ && xcopy /Y *.txt dist/ && xcopy /Y *.xml dist/",
     "start": "serve dist"
   },
   "keywords": [
     "reformas",
     "sevilla",
-    "construcción",
-    "renovación"
+    "construccion",
+    "renovacion"
   ],
   "author": "Reformas Express Sevilla",
   "license": "ISC",
