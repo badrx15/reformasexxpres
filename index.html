@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reformas Express en Sevilla - Servicios profesionales de renovación de cocinas, baños y viviendas con tiempos de entrega garantizados. Presupuestos instantáneos y atención personalizada.">
+    <meta name="keywords" content="reformas sevilla, reformas express, reformas cocinas sevilla, reformas baños sevilla, reforma integral sevilla, reformas rápidas, presupuesto reformas sevilla">
+    <meta name="author" content="Reformas Express Sevilla">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta property="og:title" content="Reformas Express Sevilla | Renovaciones Rápidas y Profesionales">
+    <meta property="og:description" content="Servicios profesionales de renovación de cocinas, baños y viviendas en Sevilla con tiempos de entrega garantizados.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80">
+    <meta property="og:url" content="https://www.reformasexpresssevilla.es">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reformas Express Sevilla | Renovaciones Rápidas y Profesionales">
+    <meta name="twitter:description" content="Servicios profesionales de renovación en Sevilla con tiempos de entrega garantizados.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80">
+    <link rel="canonical" href="https://www.reformasexpresssevilla.es">
+    <title>Reformas Express Sevilla | Renovaciones Rápidas y Profesionales</title>
+    
+    <!-- Google Analytics (GA4) - Configuración Avanzada -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      // Configuración básica con parámetros adicionales
+      gtag('config', 'G-XXXXXXXXXX', {
+        'send_page_view': true,
+        'page_title': document.title,
+        'page_location': window.location.href,
+        'page_path': window.location.pathname,
+        'user_properties': {
+          'device_category': navigator.userAgent.indexOf('Mobile') > -1 ? 'mobile' : 'desktop'
+        },
+        'custom_map': {
+          'dimension1': 'user_type',
+          'dimension2': 'page_section'
+        }
+      });
+      
+      // Función para rastrear eventos de navegación
+      function trackNavigation(element, section) {
+        gtag('event', 'navigation_click', {
+          'event_category': 'engagement',
+          'event_label': section,
+          'page_section': section
+        });
+      }
+      
+      // Función para rastrear interacciones con formularios
+      function trackFormInteraction(formId, action, formType) {
+        gtag('event', action, {
+          'event_category': 'form',
+          'event_label': formType,
+          'form_id': formId
+        });
+      }
+      
+      // Función para rastrear visualizaciones de secciones
+      function trackSectionView(sectionId) {
+        gtag('event', 'section_view', {
+          'event_category': 'engagement',
+          'event_label': sectionId,
+          'page_section': sectionId
+        });
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E40AF', // azul oscuro
+                        secondary: '#3B82F6', // azul medio
+                        accent: '#F97316', // naranja
+                        light: '#F3F4F6', // gris claro
+                        dark: '#1F2937', // gris oscuro
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .before-after-slider {
+            position: relative;
+            overflow: hidden;
+        }
+        .before-after-slider img {
+            width: 100%;
+            display: block;
+        }
+        .before-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .before-image img {
+            width: 200%;
+        }
+        .slider-handle {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 4px;
+            background: #fff;
+            cursor: ew-resize;
+            transform: translateX(-50%);
+        }
+        .slider-handle::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body class="font-sans text-dark bg-white">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50" role="banner">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-bold text-primary">Reformas<span class="text-accent">Express</span></a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#servicios" class="text-dark hover:text-accent transition-colors font-medium">Servicios</a>
+                    <a href="#proyectos" class="text-dark hover:text-accent transition-colors font-medium">Proyectos</a>
+                    <a href="#testimonios" class="text-dark hover:text-accent transition-colors font-medium">Testimonios</a>
+                    <a href="#contacto" class="text-dark hover:text-accent transition-colors font-medium">Contacto</a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-dark hover:text-accent">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+                <div class="hidden md:block">
+                    <a href="tel:+34600000000" class="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-md font-medium transition-colors">
+                        <i class="fas fa-phone-alt mr-2"></i>600 000 000
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="#servicios" class="text-dark hover:text-accent transition-colors font-medium">Servicios</a>
+                <a href="#proyectos" class="text-dark hover:text-accent transition-colors font-medium">Proyectos</a>
+                <a href="#testimonios" class="text-dark hover:text-accent transition-colors font-medium">Testimonios</a>
+                <a href="#contacto" class="text-dark hover:text-accent transition-colors font-medium">Contacto</a>
+                <a href="tel:+34600000000" class="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-md font-medium transition-colors text-center">
+                    <i class="fas fa-phone-alt mr-2"></i>600 000 000
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-br from-primary/10 to-light">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4">Reformas Express en <span class="text-accent">Sevilla</span></h1>
+                    <p class="text-lg md:text-xl text-dark/80 mb-6">Transformamos tu espacio en tiempo récord con acabados profesionales y garantía de calidad.</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#presupuesto" class="bg-accent hover:bg-accent/90 text-white px-6 py-3 rounded-md font-medium text-center transition-colors">
+                            <i class="fas fa-calculator mr-2"></i>Presupuesto Instantáneo
+                        </a>
+                        <a href="#contacto" class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium text-center transition-colors">
+                            <i class="fas fa-calendar-alt mr-2"></i>Reservar Visita
+                        </a>
+                    </div>
+                    <div class="mt-8 flex items-center">
+                        <div class="flex -space-x-2">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente satisfecho" class="w-10 h-10 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Cliente satisfecho" class="w-10 h-10 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/men/59.jpg" alt="Cliente satisfecho" class="w-10 h-10 rounded-full border-2 border-white">
+                        </div>
+                        <div class="ml-4">
+                            <div class="flex text-accent">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-sm text-dark/70">+200 clientes satisfechos en Sevilla</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="relative rounded-lg overflow-hidden shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Reforma de cocina moderna en Sevilla - Reformas Express en 7 días" class="w-full h-auto">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-dark/80 to-transparent p-4">
+                            <p class="text-white font-medium">Reforma completa en 7 días</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-light rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-bolt text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Rapidez Garantizada</h3>
+                    <p class="text-dark/70">Nos comprometemos a finalizar tu reforma en el plazo acordado o te devolvemos el 10% del presupuesto.</p>
+                </div>
+                <div class="bg-light rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-medal text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Calidad Profesional</h3>
+                    <p class="text-dark/70">Materiales de primera calidad y profesionales cualificados con más de 15 años de experiencia.</p>
+                </div>
+                <div class="bg-light rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-hand-holding-usd text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Precio Transparente</h3>
+                    <p class="text-dark/70">Presupuesto detallado sin sorpresas ni costes adicionales. Lo que ves es lo que pagas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="py-16 bg-light" aria-labelledby="servicios-heading">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 id="servicios-heading" class="text-3xl md:text-4xl font-bold text-primary mb-4">Servicios Express</h2>
+                <p class="text-lg text-dark/70 max-w-2xl mx-auto">Soluciones rápidas y profesionales para todas tus necesidades de reforma en Sevilla</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Reforma de cocinas en Sevilla - Diseño moderno en 5 días" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Reforma de Cocinas</h3>
+                        <p class="text-dark/70 mb-4">Renovamos tu cocina en tan solo 5 días con acabados modernos y funcionales.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-accent font-medium"><i class="fas fa-clock mr-1"></i> 5 días</span>
+                            <a href="#contacto" class="text-primary hover:text-accent transition-colors font-medium">Más información <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Reforma de baños en Sevilla - Renovación completa en 3 días" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Reforma de Baños</h3>
+                        <p class="text-dark/70 mb-4">Transformamos tu baño en 3 días con materiales resistentes a la humedad y diseños actuales.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-accent font-medium"><i class="fas fa-clock mr-1"></i> 3 días</span>
+                            <a href="#contacto" class="text-primary hover:text-accent transition-colors font-medium">Más información <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Pintura de interiores en Sevilla - Acabados profesionales en 2 días" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Pintura de Interiores</h3>
+                        <p class="text-dark/70 mb-4">Pintamos tu hogar en 2 días con acabados profesionales y pinturas ecológicas.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-accent font-medium"><i class="fas fa-clock mr-1"></i> 2 días</span>
+                            <a href="#contacto" class="text-primary hover:text-accent transition-colors font-medium">Más información <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1594940981917-e14e63d2e173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Instalación de suelos en Sevilla - Materiales de alta resistencia en 4 días" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Instalación de Suelos</h3>
+                        <p class="text-dark/70 mb-4">Renovamos tus suelos en 4 días con materiales de alta resistencia y fácil mantenimiento.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-accent font-medium"><i class="fas fa-clock mr-1"></i> 4 días</span>
+                            <a href="#contacto" class="text-primary hover:text-accent transition-colors font-medium">Más información <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Reforma integral de viviendas en Sevilla - Transformación completa en 15 días" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Reforma Integral</h3>
+                        <p class="text-dark/70 mb-4">Transformamos completamente tu vivienda en 15 días con un equipo coordinado de profesionales.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-accent font-medium"><i class="fas fa-clock mr-1"></i> 15 días</span>
+                            <a href="#contacto" class="text-primary hover:text-accent transition-colors font-medium">Más información <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Carpintería a medida en Sevilla - Muebles personalizados en 7 días" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Carpintería a Medida</h3>
+                        <p class="text-dark/70 mb-4">Diseñamos y fabricamos muebles a medida en 7 días adaptados a tus necesidades.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-accent font-medium"><i class="fas fa-clock mr-1"></i> 7 días</span>
+                            <a href="#contacto" class="text-primary hover:text-accent transition-colors font-medium">Más información <i class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Nuestros Proyectos</h2>
+                <p class="text-lg text-dark/70 max-w-2xl mx-auto">Transformaciones reales en Sevilla que hablan por sí mismas</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <div class="before-after-slider">
+                        <img src="https://images.unsplash.com/photo-1574739782594-db4ead022697?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Después de la reforma de cocina en Triana, Sevilla - Resultado final" class="w-full">
+                        <div class="before-image">
+                            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Antes de la reforma de cocina en Triana, Sevilla - Estado inicial">
+                        </div>
+                        <div class="slider-handle"></div>
+                    </div>
+                    <div class="p-4 bg-light">
+                        <h3 class="text-xl font-semibold mb-1">Reforma Cocina Triana</h3>
+                        <p class="text-dark/70">Reforma completa en 5 días</p>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <div class="before-after-slider">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Después de la reforma" class="w-full">
+                        <div class="before-image">
+                            <img src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Antes de la reforma">
+                        </div>
+                        <div class="slider-handle"></div>
+                    </div>
+                    <div class="p-4 bg-light">
+                        <h3 class="text-xl font-semibold mb-1">Baño Moderno Nervión</h3>
+                        <p class="text-dark/70">Reforma completa en 3 días</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <a href="#contacto" class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium inline-block transition-colors">
+                    <i class="fas fa-images mr-2"></i>Ver más proyectos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="py-16 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Testimonios</h2>
+                <p class="text-lg text-dark/70 max-w-2xl mx-auto">Lo que dicen nuestros clientes en Sevilla</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex text-accent mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-dark/80 mb-6">"Increíble el trabajo que hicieron en mi cocina. En solo 5 días la transformaron completamente y quedó mejor de lo que esperaba. El equipo fue muy profesional y limpio."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Ana García" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Ana García</h4>
+                            <p class="text-sm text-dark/70">Triana, Sevilla</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex text-accent mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-dark/80 mb-6">"Reformaron mi baño en tiempo récord y con un acabado espectacular. El presupuesto fue exactamente el acordado, sin sorpresas. Totalmente recomendable."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Manuel Jiménez" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Manuel Jiménez</h4>
+                            <p class="text-sm text-dark/70">Nervión, Sevilla</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex text-accent mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-dark/80 mb-6">"Hicimos una reforma integral del piso y cumplieron con el plazo prometido. La calidad del trabajo es excelente y el trato muy cercano. Volveré a contar con ellos."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Laura Martínez" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Laura Martínez</h4>
+                            <p class="text-sm text-dark/70">Los Remedios, Sevilla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section id="presupuesto" class="py-16 bg-primary">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2 p-8 md:p-12">
+                        <h2 class="text-3xl font-bold text-primary mb-4">Presupuesto Instantáneo</h2>
+                        <p class="text-dark/70 mb-6">Completa el formulario y recibe un presupuesto aproximado al instante. Sin compromiso.</p>
+                        <form id="quote-form" class="space-y-4">
+                            <div>
+                                <label for="service" class="block text-sm font-medium text-dark/70 mb-2">Tipo de servicio</label>
+                                <select id="service" name="service" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary">
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="cocina">Reforma de Cocina</option>
+                                    <option value="baño">Reforma de Baño</option>
+                                    <option value="pintura">Pintura de Interiores</option>
+                                    <option value="suelos">Instalación de Suelos</option>
+                                    <option value="integral">Reforma Integral</option>
+                                    <option value="carpinteria">Carpintería a Medida</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="area" class="block text-sm font-medium text-dark/70 mb-2">Metros cuadrados</label>
+                                <input type="number" id="area" name="area" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary" placeholder="Ej: 15">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-dark/70 mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary" placeholder="tu@email.com">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-dark/70 mb-2">Teléfono</label>
+                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary" placeholder="600 000 000">
+                            </div>
+                            <button type="submit" class="w-full bg-accent hover:bg-accent/90 text-white px-6 py-3 rounded-md font-medium transition-colors">
+                                <i class="fas fa-calculator mr-2"></i>Calcular Presupuesto
+                            </button>
+                        </form>
+                    </div>
+                    <div class="md:w-1/2 bg-primary p-8 md:p-12 text-white">
+                        <h3 class="text-2xl font-bold mb-4">¿Por qué elegir Reformas Express?</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+                                <span>Presupuesto detallado en menos de 2 horas</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+                                <span>Inicio de obra en 48h tras la aprobación</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+                                <span>Garantía de finalización en el plazo acordado</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+                                <span>Materiales de primera calidad con garantía</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+                                <span>Profesionales cualificados y con experiencia</span>
+                            </li>
+                        </ul>
+                        <div class="mt-8 p-4 bg-white/10 rounded-lg">
+                            <p class="text-lg font-medium mb-2">Tiempo medio de respuesta:</p>
+                            <div class="flex items-center">
+                                <i class="fas fa-clock text-accent mr-2"></i>
+                                <span class="text-2xl font-bold">< 2 horas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Zonas de Servicio</h2>
+                <p class="text-lg text-dark/70 max-w-2xl mx-auto">Trabajamos en toda Sevilla y alrededores</p>
+            </div>
+            <div class="bg-light rounded-lg overflow-hidden shadow-md">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101459.72811487339!2d-6.025367233867952!3d37.37756446412582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1114be6291%3A0x34f018621cfe5648!2sSevilla!5e0!3m2!1ses!2ses!4v1656431422272!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-light rounded-lg p-4 text-center">
+                    <h3 class="font-semibold mb-1">Triana</h3>
+                    <p class="text-sm text-dark/70">Tiempo de llegada: 15 min</p>
+                </div>
+                <div class="bg-light rounded-lg p-4 text-center">
+                    <h3 class="font-semibold mb-1">Nervión</h3>
+                    <p class="text-sm text-dark/70">Tiempo de llegada: 10 min</p>
+                </div>
+                <div class="bg-light rounded-lg p-4 text-center">
+                    <h3 class="font-semibold mb-1">Los Remedios</h3>
+                    <p class="text-sm text-dark/70">Tiempo de llegada: 20 min</p>
+                </div>
+                <div class="bg-light rounded-lg p-4 text-center">
+                    <h3 class="font-semibold mb-1">Centro</h3>
+                    <p class="text-sm text-dark/70">Tiempo de llegada: 5 min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-16 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Contacto</h2>
+                <p class="text-lg text-dark/70 max-w-2xl mx-auto">Estamos aquí para ayudarte con tu proyecto de reforma</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2 p-8 md:p-12">
+                        <h3 class="text-2xl font-bold text-primary mb-6">Envíanos un mensaje</h3>
+                        <form id="contact-form" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-dark/70 mb-2">Nombre completo</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary" placeholder="Tu nombre">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-dark/70 mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary" placeholder="tu@email.com">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-dark/70 mb-2">Teléfono</label>
+                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary" placeholder="600 000 000">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-dark/70 mb-2">Mensaje</label>
+                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary" placeholder="Cuéntanos sobre tu proyecto"></textarea>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="privacy" name="privacy" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                                <label for="privacy" class="ml-2 block text-sm text-dark/70">Acepto la política de privacidad</label>
+                            </div>
+                            <button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium transition-colors">
+                                <i class="fas fa-paper-plane mr-2"></i>Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                    <div class="md:w-1/2 bg-primary p-8 md:p-12 text-white">
+                        <h3 class="text-2xl font-bold mb-6">Información de Contacto</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-map-marker-alt text-accent"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Dirección</h4>
+                                    <p>Calle Reforma, 123, 41010 Sevilla</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-phone-alt text-accent"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Teléfono</h4>
+                                    <p><a href="tel:+34600000000" class="hover:text-accent transition-colors">600 000 000</a></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-envelope text-accent"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Email</h4>
+                                    <p><a href="mailto:info@reformasexpress.es" class="hover:text-accent transition-colors">info@reformasexpress.es</a></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-clock text-accent"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Horario</h4>
+                                    <p>Lunes a Viernes: 9:00 - 18:00</p>
+                                    <p>Sábados: 9:00 - 14:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h4 class="font-semibold mb-3">Síguenos</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold text-primary mb-2">Certificaciones y Garantías</h3>
+                    <p class="text-dark/70">Trabajamos con los más altos estándares de calidad</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <div class="bg-light p-4 rounded-lg">
+                        <img src="https://via.placeholder.com/120x60?text=ISO+9001" alt="Certificación ISO 9001" class="h-12">
+                    </div>
+                    <div class="bg-light p-4 rounded-lg">
+                        <img src="https://via.placeholder.com/120x60?text=Garantía+5+años" alt="Garantía 5 años" class="h-12">
+                    </div>
+                    <div class="bg-light p-4 rounded-lg">
+                        <img src="https://via.placeholder.com/120x60?text=Profesionales+Certificados" alt="Profesionales Certificados" class="h-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <a href="#" class="text-2xl font-bold text-white mb-4 block">Reformas<span class="text-accent">Express</span></a>
+                    <p class="text-white/70 mb-4">Transformamos espacios en Sevilla con calidad y rapidez garantizada.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white/70 hover:text-accent transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-white/70 hover:text-accent transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white/70 hover:text-accent transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white/70 hover:text-accent transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Servicios</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#servicios" class="text-white/70 hover:text-accent transition-colors">Reforma de Cocinas</a></li>
+                        <li><a href="#servicios" class="text-white/70 hover:text-accent transition-colors">Reforma de Baños</a></li>
+                        <li><a href="#servicios" class="text-white/70 hover:text-accent transition-colors">Pintura de Interiores</a></li>
+                        <li><a href="#servicios" class="text-white/70 hover:text-accent transition-colors">Instalación de Suelos</a></li>
+                        <li><a href="#servicios" class="text-white/70 hover:text-accent transition-colors">Reforma Integral</a></li>
+                        <li><a href="#servicios" class="text-white/70 hover:text-accent transition-colors">Carpintería a Medida</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-white/70 hover:text-accent transition-colors">Inicio</a></li>
+                        <li><a href="#servicios" class="text-white/70 hover:text-accent transition-colors">Servicios</a></li>
+                        <li><a href="#proyectos" class="text-white/70 hover:text-accent transition-colors">Proyectos</a></li>
+                        <li><a href="#testimonios" class="text-white/70 hover:text-accent transition-colors">Testimonios</a></li>
+                        <li><a href="#presupuesto" class="text-white/70 hover:text-accent transition-colors">Presupuesto</a></li>
+                        <li><a href="#contacto" class="text-white/70 hover:text-accent transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contacto</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-accent mt-1 mr-2"></i>
+                            <span class="text-white/70">Calle Reforma, 123, 41010 Sevilla</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt text-accent mt-1 mr-2"></i>
+                            <span class="text-white/70">600 000 000</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-accent mt-1 mr-2"></i>
+                            <span class="text-white/70">info@reformasexpress.es</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-clock text-accent mt-1 mr-2"></i>
+                            <span class="text-white/70">Lun-Vie: 9:00 - 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 mt-8 pt-8 text-center text-white/70">
+                <p>&copy; 2023 Reformas Express Sevilla. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/34600000000" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg z-50 transition-colors">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Discount Popup -->
+    <div id="discount-popup" class="hidden fixed inset-0 bg-dark/50 flex items-center justify-center z-50">
+        <div class="bg-white rounded-lg shadow-xl max-w-md w-full m-4 relative overflow-hidden">
+            <button id="close-popup" class="absolute top-2 right-2 text-dark/50 hover:text-dark transition-colors">
+                <i class="fas fa-times text-xl"></i>
+            </button>
+            <div class="bg-primary text-white p-4 text-center">
+                <h3 class="text-2xl font-bold">¡Oferta Especial!</h3>
+            </div>
+            <div class="p-6">
+                <div class="text-center mb-4">
+                    <span class="text-4xl font-bold text-accent">10% OFF</span>
+                    <p class="text-dark/70 mt-2">En tu primera reforma con nosotros</p>
+                </div>
+                <form class="space-y-4">
+                    <div>
+                        <input type="email" placeholder="Tu email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-primary">
+                    </div>
+                    <button type="submit" class="w-full bg-accent hover:bg-accent/90 text-white px-6 py-3 rounded-md font-medium transition-colors">
+                        Reclamar Descuento
+                    </button>
+                </form>
+                <p class="text-xs text-dark/50 mt-4 text-center">Válido para nuevos clientes. No acumulable con otras ofertas.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Reformas Express Sevilla",
+      "image": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "@id": "https://www.reformasexpresssevilla.es",
+      "url": "https://www.reformasexpresssevilla.es",
+      "telephone": "+34600000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Reforma, 123",
+        "addressLocality": "Sevilla",
+        "postalCode": "41010",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.3754,
+        "longitude": -6.0250
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "14:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/reformasexpresssevilla",
+        "https://www.instagram.com/reformasexpresssevilla",
+        "https://twitter.com/reformasexpress"
+      ],
+      "priceRange": "€€",
+      "servesCuisine": "Reformas",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "200"
+      },
+      "offers": {
+        "@type": "Offer",
+        "description": "Reformas Express en Sevilla - Servicios profesionales de renovación"
+      }
+    }
+    </script>
+    
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Servicios de Reformas",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Reformas Express Sevilla"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Sevilla"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de Reformas",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reforma de Cocinas",
+              "description": "Renovamos tu cocina en tan solo 5 días con acabados modernos y funcionales."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reforma de Baños",
+              "description": "Transformamos tu baño en 3 días con materiales resistentes a la humedad y diseños actuales."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reforma Integral",
+              "description": "Transformamos completamente tu vivienda en 15 días con un equipo coordinado de profesionales."
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</body>
+</html>

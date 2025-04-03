@@ -1,0 +1,22 @@
+{
+  "name": "reformas-express-sevilla",
+  "version": "1.0.0",
+  "description": "Sitio web de Reformas Express Sevilla",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve",
+    "build": "npx rimraf dist && mkdir dist && xcopy /Y *.html dist\ && xcopy /Y *.js dist\ && xcopy /Y *.txt dist\ && xcopy /Y *.xml dist\",
+    "start": "serve dist"
+  },
+  "keywords": [
+    "reformas",
+    "sevilla",
+    "construcción",
+    "renovación"
+  ],
+  "author": "Reformas Express Sevilla",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
