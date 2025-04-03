@@ -15,8 +15,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById('mobile-menu');
 
     if (mobileMenuButton && mobileMenu) {
-        mobileMenuButton.addEventListener('click', function() {
+        mobileMenuButton.addEventListener('click', function(e) {
+            e.preventDefault();
             mobileMenu.classList.toggle('hidden');
+            // Toggle aria-expanded attribute for accessibility
+            const isExpanded = !mobileMenu.classList.contains('hidden');
+            mobileMenuButton.setAttribute('aria-expanded', isExpanded);
+            // Add overflow hidden to body when menu is open to prevent scrolling
+            document.body.style.overflow = isExpanded ? 'hidden' : '';
+            // Update icon to indicate menu state
+            const menuIcon = mobileMenuButton.querySelector('i');
+            menuIcon.classList.toggle('fa-bars');
+            menuIcon.classList.toggle('fa-times');
             
             // Tracking de apertura/cierre del menú móvil
             if (typeof gtag === 'function') {

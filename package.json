@@ -1,7 +1,7 @@
 {
-  "name": "reformas-express-sevilla",
+  "name": "multiservicioxpress",
   "version": "1.0.0",
-  "description": "Sitio web de Reformas Express Sevilla",
+  "description": "Sitio web de multiservicioxpress",
   "main": "index.js",
   "scripts": {
     "dev": "serve",
@@ -14,7 +14,7 @@
     "construccion",
     "renovacion"
   ],
-  "author": "Reformas Express Sevilla",
+  "author": "multiservicioxpress",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.2.1"
