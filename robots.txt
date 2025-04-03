@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.reformasexpresssevilla.es/sitemap.xml
+Sitemap: https://multiservicioxpress.es/sitemap.xml
