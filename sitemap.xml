@@ -2,38 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://multiservicioxpress.es/</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://multiservicioxpress.es/#servicios</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://multiservicioxpress.es/#proyectos</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://multiservicioxpress.es/#testimonios</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://multiservicioxpress.es/#presupuesto</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://multiservicioxpress.es/#contacto</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://multiservicioxpress.es/#reformas-sevilla</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

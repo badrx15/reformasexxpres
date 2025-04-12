@@ -96,10 +96,9 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             // Basic validation
             const service = document.getElementById('service');
-            const area = document.getElementById('area');
             
-            if (service.value === '' || area.value === '') {
-                alert('Por favor, completa todos los campos requeridos.');
+            if (service.value === '') {
+                alert('Por favor, selecciona un tipo de servicio.');
                 return;
             }
             
