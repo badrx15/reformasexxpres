@@ -1,12 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "*.html", "use": "@vercel/static" },
-    { "src": "*.js", "use": "@vercel/static" },
-    { "src": "*.txt", "use": "@vercel/static" },
-    { "src": "*.xml", "use": "@vercel/static" }
+    { "src": "**/*.html", "use": "@vercel/static" },
+    { "src": "**/*.js", "use": "@vercel/static" },
+    { "src": "**/*.txt", "use": "@vercel/static" },
+    { "src": "**/*.xml", "use": "@vercel/static" },
+    { "src": "**/*.webp", "use": "@vercel/static" },
+    { "src": "**/*.ico", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/blog/([^/]+)/?$", "dest": "/blog/$1/index.html" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
