@@ -42,58 +42,59 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Páginas del Blog -->
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-san-juan-de-aznalfarache-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://multiservicioxpress.es/blog/</loc>
+    <lastmod>2024-06-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-bormujos-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/reformas-viviendas-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-gines-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/como-ahorrar-reforma-baño-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-Dos-hermanas-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/mantenimiento-edificios-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-alcala-de-guadaira-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/reforma-baño-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-mairena-del-aljarafe-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/reforma-dos-hermanas-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-camas-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/reforma-nervion-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-tomares-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/reformas-integrales-pisos-antiguos-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://multiservicioxpress.es/reformas-en-la-rinconada-sevilla</loc>
-    <lastmod>2024-06-01</lastmod>
+    <loc>https://multiservicioxpress.es/blog/tendencias-reformas-cocinas-sevilla/</loc>
+    <lastmod>2024-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
